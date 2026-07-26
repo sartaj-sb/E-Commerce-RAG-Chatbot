@@ -81,15 +81,15 @@ if question:
 
             st.markdown(answer)
 
-            with st.expander("Retrieved Chunks"):
+            # with st.expander("Retrieved Chunks"):
 
-                for i, doc in enumerate(result["documents"], start=1):
+            #     for i, doc in enumerate(result["documents"], start=1):
 
-                    st.markdown(f"### Chunk {i}")
+            #         st.markdown(f"### Chunk {i}")
 
-                    st.write(doc.page_content)
+            #         st.write(doc.page_content)
 
-                    st.divider()
+            #         st.divider()
 
     st.session_state.messages.append(
         {
