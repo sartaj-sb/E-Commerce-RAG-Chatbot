@@ -18,7 +18,7 @@ st.write("Ask questions about the uploaded documents.")
 
 
 # ----------------------------
-# Initialize Chatbot
+# Initialize Chatbot.
 # ----------------------------
 
 @st.cache_resource
